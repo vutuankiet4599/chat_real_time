@@ -69,7 +69,6 @@ let seenMessage = async (req, res) => {
 };
 
 module.exports = {
-  index,
   getAllMessage,
   getUserMessage,
   getAllUser,
