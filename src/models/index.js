@@ -9,7 +9,7 @@ const env = process.env.NODE_ENV || "development";
 const config = require("../config/config")[env];
 const db = {};
 
-let sequelize = new Sequelize('mysql://root:TNWgfsZ7zZbcLKE1vgZy@containers-us-west-101.railway.app:7779/railway');
+let sequelize = new Sequelize('mysql://root:vtZXOnrYdv76GidDDHzu@containers-us-west-163.railway.app:7767/railway');
 
 fs.readdirSync(__dirname)
   .filter((file) => {
