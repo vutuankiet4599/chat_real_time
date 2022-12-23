@@ -6,7 +6,7 @@ const Sequelize = require("sequelize");
 const process = require("process");
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || "development";
-const config = require(__dirname + "/../config/config.js")[env];
+const config = require("../config/config")[env];
 const db = {};
 
 let sequelize = new Sequelize('mysql://root:TNWgfsZ7zZbcLKE1vgZy@containers-us-west-101.railway.app:7779/railway');
